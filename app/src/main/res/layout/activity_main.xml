@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F2F3F5">
+    android:background="@color/colorPrimary">
 
     <!-- Facebook Logo -->
     <ImageView
@@ -27,8 +27,8 @@
         android:background="@drawable/rounded_edittext"
         android:hint="Mobile number or email"
         android:padding="15dp"
-        android:textColor="@color/black"
-        android:textColorHint="@color/material_dynamic_neutral_variant50"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
         android:textSize="16sp" />
 
     <!-- Password -->
@@ -44,8 +44,8 @@
         android:hint="Password"
         android:inputType="textPassword"
         android:padding="15dp"
-        android:textColor="@color/black"
-        android:textColorHint="@color/material_dynamic_neutral_variant50"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent"
         android:textSize="16sp" />
 
     <!-- Log In Button -->
@@ -72,7 +72,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="Forgot password?"
-        android:textColor="@color/black"
+        android:textColor="@color/colorAccent"
         android:textSize="14sp"
         android:textStyle="bold" />
 
@@ -98,7 +98,7 @@
         android:layout_alignStart="@+id/btn_create_account"
         android:layout_alignTop="@+id/btn_create_account"
         android:layout_alignBottom="@+id/btn_create_account"
-        android:layout_marginStart="131dp"
+        android:layout_marginStart="119dp"
         android:layout_marginTop="74dp"
         android:layout_marginBottom="-47dp"
         app:srcCompat="@drawable/meta" />
@@ -110,7 +110,7 @@
         android:layout_alignStart="@+id/btn_create_account"
         android:layout_alignTop="@+id/btn_create_account"
         android:layout_alignBottom="@+id/btn_create_account"
-        android:layout_marginStart="169dp"
+        android:layout_marginStart="154dp"
         android:layout_marginTop="74dp"
         android:layout_marginBottom="-47dp"
         android:text="Meta" />
